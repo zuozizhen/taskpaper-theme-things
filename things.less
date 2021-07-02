@@ -56,7 +56,7 @@ run[tag="data-hot"] {
 
 item[data-done],
 item[data-done] > run[tag="data-hot"],
-item[data-done] > run[tag="data-important"]
+item[data-done] > run[tag="data-someday"],
 item[data-done] > run[tag="data-tonight"],
 item[data-done] > run[tag="data-today"],
 item[data-done] > run[tag="data-context"],
@@ -66,7 +66,7 @@ run[tag="data-done"] {
   color: mix(@text-color, @background-color, 50%);
   > run[content] {
 	color: mix(@text-color, @background-color, 50%);
-    text-strikethrough-color: mix(@text-color, @background-color, 50%);
+  text-strikethrough-color: mix(@text-color, @background-color, 50%);
   }
 }
 
